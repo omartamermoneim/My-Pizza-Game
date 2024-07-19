@@ -120,6 +120,15 @@ def main(): # This is the main game
                                                 else:
                                                     print ("you lost :(")
                                                     again ()
+                                    else:
+                                        print ("you lost :(")
+                                        again ()
+                                else:        
+                                    print ("you lost :(")
+                                    again ()    
+                            else:
+                                print ("you lost :(")
+                                again ()
                         if respo == "2":#makes the player enter the competition
                             print_fun("the organizer:welcom I will ask you 3 Q if you aswered you get 40$ ")
                             print_fun("Q1:A bat and a ball cost $1.10 in total. The bat costs $1 more than the ball. How much cents does the ball cost?")
@@ -175,4 +184,4 @@ def main(): # This is the main game
         
         
 
-main()
+main() 
