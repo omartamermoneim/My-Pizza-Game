@@ -52,6 +52,8 @@ def main(): # This is the main game
         resp = input (">")
         if resp == "1":
             break
+        else:
+            print ("please be ready (enter1)")
     while True: # start of the game
         if resp == "1" :
             print_fun("You wake up in your home and you want to eat pizza, (total money collected "+str(money)+"$)")
