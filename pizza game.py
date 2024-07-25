@@ -128,6 +128,7 @@ def main(): # This is the main game
                                                     print_fun("(total money collected "+str(money)+"$)")
                                                     again ()
                                             if resp == "2":
+                                                price = 50
                                                 if price <= money:
                                                     print ("you won!")
                                                     print_fun("(total money collected "+str(money)+"$)")
@@ -189,6 +190,7 @@ def main(): # This is the main game
                                                     print_fun("(total money collected "+str(money)+"$)")
                                                     again ()
                                             if resp == "2":
+                                                price = 50
                                                 if price <= money:
                                                     print ("you won!")
                                                     print_fun("(total money collected "+str(money)+"$)")
